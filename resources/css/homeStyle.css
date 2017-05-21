@@ -1,0 +1,32 @@
+body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/******************** HEADER *******************/
+
+header{
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/groupOfPeople.jpg);
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+
+.title{
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 150px;
+	margin-top: 25%;
+	opacity: 0.65;
+}
+
+header img{
+	position: absolute;
+	height: 100vh;
+	opacity: 0.2;
+	top: 0;
+	right: 38%;
+}
