@@ -15,7 +15,8 @@ body{
 
 .navBar{
 	position: fixed;
-	width: 100%;
+	width: 45%;
+	height: 45.5px;
 	top: 5%;
 	background-color: #FFE0BB;
 	text-align: center;
@@ -23,10 +24,20 @@ body{
 	opacity: 0.8;
 }
 
+.navBar ul{
+	margin-bottom: 0;
+	height: inherit;
+}
+
 .navBar li{
 	display: inline-block;
 	margin-right: 20px;
-	margin-top: 5px;
+	height: inherit;
+	padding-top: 5px;
+}
+
+.navBar li:hover{
+	background-color: #FFC887;
 }
 
 #logoNavbar{
