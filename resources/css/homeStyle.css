@@ -1,3 +1,5 @@
+/* Color palet FFE0BB  FFC887*/
+
 body{
 	box-sizing: border-box;
 	margin: 0;
@@ -5,6 +7,35 @@ body{
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 25px;
 }
+
+
+
+
+/**************** FIXED NAVBAR *****************/
+
+.navBar{
+	position: fixed;
+	width: 100%;
+	top: 5%;
+	background-color: #FFE0BB;
+	text-align: center;
+	z-index: 10;
+	opacity: 0.8;
+}
+
+.navBar li{
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+#logoNavbar{
+	position: absolute;
+	right: 5%;
+	height: 90px;
+	top: -20px;
+}
+
 
 
 /******************** HEADER *******************/
@@ -33,9 +64,17 @@ header img{
 }
 
 header button{
-	margin-top: 250px;
-	border: solid 1px #FC901D;
+	margin-top: 280px;
+	border: solid 1px #FFE0BB;
 	opacity: 0.5;
 	color: #000;
 	font-weight: 300;
+	background-color: #FFE0BB;
+	transition: background-color 0.8s;
+}
+
+header button:hover{
+	background-color: #FFC887;
+	border: solid 1px #FBAE51;
+
 }
