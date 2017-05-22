@@ -15,13 +15,14 @@ body{
 
 .navBar{
 	position: fixed;
-	width: 45%;
+	width: 600px;
 	height: 45.5px;
 	top: 5%;
 	background-color: #FFE0BB;
 	text-align: center;
 	z-index: 10;
 	opacity: 0.8;
+	display: none;
 }
 
 .navBar ul{
@@ -31,9 +32,9 @@ body{
 
 .navBar li{
 	display: inline-block;
-	margin-right: 20px;
+	margin-right: 10px;
 	height: inherit;
-	padding-top: 5px;
+	padding: 5px 10px 0 10px;
 }
 
 .navBar li:hover{
@@ -42,11 +43,29 @@ body{
 
 #logoNavbar{
 	position: absolute;
-	right: 5%;
+	right: 2%;
 	height: 90px;
 	top: -20px;
 }
+#menu-icon-div{
+    background-color: #505050;
+    opacity: 0.8;
+    width: 35px;
+    position: fixed;
+    right: 3%;
+    top: 6%;
+    z-index: 50;
+    text-align: center;
+}
 
+#menu-icon-div:hover{
+    background-color: #2B2B2B;
+}
+
+.menu_icon{
+	cursor: pointer;
+    color: #000;
+}
 
 
 /******************** HEADER *******************/
