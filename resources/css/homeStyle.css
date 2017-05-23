@@ -117,25 +117,12 @@ header button:hover{
 	text-align: center;
 }
 
-/*.about h2{
-	transform: rotate(-90deg);
-	color: #FBAE51;
-	font-size: 100px;
-	float: left;
-}*/
-
 .about h2{
-	position: absolute;
-	transform: rotate(-90deg);
+	margin-top: 
 	color: #FBAE51;
 	font-size: 100px;
-	top: 40%;
-	left: -25%;
 }
 
 .about p{
-	margin: 0 auto;
-	width: 80%;
-	margin-top: 180px;
 	font-size: 125%;
 }
