@@ -21,14 +21,14 @@ body{
 
 .navBar{
 	position: fixed;
-	width: 600px;
-	height: 45.5px;
+	width: 800px;
+	height: 55px;
 	top: 5%;
 	background-color: #FFFCF9;
 	border: 1px solid #E1E1E1
 	text-align: center;
 	z-index: 10;
-	opacity: 0.8;
+	opacity: 0.95;
 	display: none;
 }
 
@@ -48,12 +48,22 @@ body{
 	background-color: #FFC887;
 }
 
-#logoNavbar{
+/*#logoNavbar{
 	position: absolute;
 	right: 2%;
 	height: 90px;
 	top: -20px;
+}*/
+
+.liLogo{
+	float: right;
+	pointer-events: none;
 }
+
+#logoNavbar{
+	height: 30px;
+}
+
 #menu-icon-div{
     background-color: #505050;
     opacity: 0.8;
