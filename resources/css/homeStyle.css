@@ -94,7 +94,7 @@ header img{
 }
 
 header button{
-	margin-top: 280px;
+	margin-top: 225px;
 	border: solid 1px #FFE0BB;
 	opacity: 0.5;
 	color: #000;
@@ -106,5 +106,36 @@ header button{
 header button:hover{
 	background-color: #FFC887;
 	border: solid 1px #FBAE51;
+}
 
+
+/*********************** ABOUT ***********************/
+
+.about, .about .container{
+	height: 100vh;
+	position: relative;
+	text-align: center;
+}
+
+/*.about h2{
+	transform: rotate(-90deg);
+	color: #FBAE51;
+	font-size: 100px;
+	float: left;
+}*/
+
+.about h2{
+	position: absolute;
+	transform: rotate(-90deg);
+	color: #FBAE51;
+	font-size: 100px;
+	top: 40%;
+	left: -25%;
+}
+
+.about p{
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 180px;
+	font-size: 125%;
 }
