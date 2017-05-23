@@ -18,7 +18,8 @@ body{
 	width: 600px;
 	height: 45.5px;
 	top: 5%;
-	background-color: #FFE0BB;
+	background-color: #FFFCF9;
+	border: 1px solid #E1E1E1
 	text-align: center;
 	z-index: 10;
 	opacity: 0.8;
@@ -125,4 +126,26 @@ header button:hover{
 
 .about p{
 	font-size: 125%;
+}
+
+.about .container-fluid div:nth-child(1){
+	padding-top: 70px;
+	padding-bottom: 90px;
+}
+
+.grid div{
+	height: 550px;
+}
+
+.grid i{
+	display: block;
+	font-size: 150%;
+}
+
+.bkgBlack{
+	background-color: #000;
+}
+
+.bkgGrey{
+	background-color: #979797;
 }
