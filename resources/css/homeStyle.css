@@ -175,6 +175,10 @@ header button:hover{
 	font-size: 70px;
 }
 
+.reachContainer{
+	margin-top: 60px;
+}
+
 .socialReachInner{
 	position: relative;
 }
@@ -194,4 +198,11 @@ header button:hover{
 	background-color: white;
 	border-top-left-radius: 100px;
 	border-bottom-left-radius: 100px;
+}
+
+
+/******************* CONTATC *******************/
+
+.contact{
+	height: 100vh;
 }
