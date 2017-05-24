@@ -151,6 +151,10 @@ header button:hover{
 	height: 550px;
 }
 
+/*.grid .col-md-6{
+	margin-top: 100px;                                              option for about grid
+}
+*/
 .grid i{
 	display: block;
 	font-size: 100px;
@@ -182,10 +186,11 @@ header button:hover{
 .smrNumber{
 	position: absolute;
 	top: 32%;
-	right: 12%;
+	right: 10%;
 	font-weight: bold;
 	font-size: 130px;
 	color: #333;
+	padding-left: 20px;
 	background-color: white;
 	border-top-left-radius: 100px;
 	border-bottom-left-radius: 100px;
