@@ -61,6 +61,8 @@ body{
 }
 
 #logoNavbar{
+	margin-left: 2px;
+	margin-right: 2px;
 	height: 30px;
 }
 
@@ -111,7 +113,7 @@ header img{
 }
 
 header button{
-	margin-top: 225px;
+	margin-top: 180px;
 	border: solid 1px #FFE0BB;
 	opacity: 0.5;
 	color: #000;
@@ -167,4 +169,24 @@ header button:hover{
 .bkgGrey h3{
 	font-weight: bold;
 	font-size: 80px;
+}
+
+.socialReachInner{
+	position: relative;
+}
+
+.socialReachInner img{
+	float: left;
+}
+
+.smrNumber{
+	position: absolute;
+	top: 35%;
+	right: 12%;
+	font-weight: bold;
+	font-size: 130px;
+	color: #333;
+	background-color: white;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
 }
