@@ -131,7 +131,6 @@ header button:hover{
 /*********************** ABOUT ***********************/
 
 .about, .about .container{
-	height: 100vh;
 	position: relative;
 	text-align: center;
 }
@@ -204,5 +203,18 @@ header button:hover{
 /******************* CONTATC *******************/
 
 .contact{
+	margin-top: 120px;
 	height: 100vh;
+	text-align: center;
+}
+
+.contact h2{
+	font-size: 80px;
+	margin-bottom: 60px;
+}
+
+.input-group, #mensaje{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 60%;
 }
