@@ -204,7 +204,6 @@ header button:hover{
 
 .contact{
 	margin-top: 120px;
-	height: 100vh;
 	text-align: center;
 }
 
@@ -218,3 +217,60 @@ header button:hover{
 	margin-bottom: 20px;
 	width: 60%;
 }
+
+/* ********************* FOOTER ********************** */
+
+
+footer{
+	margin-top: 50px;
+    padding-bottom: 15px;
+    background-color: #232f3e;
+}
+
+.footer_inner{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ddd;
+}
+
+.footer_logo_div{
+    margin-right: 25px;
+    display: inline-block;
+}
+
+.footer_inner img{
+    display: inline-block;
+    width: 50px;
+}
+
+.footer_inner h4{
+
+}
+
+
+.glyphicon-globe{
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 115%;
+}
+
+.backTop_div{
+    background-color: #313943;
+    height: 70px;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.backTop_div:hover{
+    background-color: #424e5d;
+    cursor: pointer;
+}
+
+.backTop_div div{
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
