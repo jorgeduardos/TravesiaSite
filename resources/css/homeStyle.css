@@ -6,7 +6,7 @@ body{
 	padding: 0;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 30px;
-	overflow-x: none;
+	overflow-x: hidden;
 }
 
 
@@ -114,7 +114,8 @@ header img{
 }
 
 header button{
-	margin-top: 220px;
+	position: absolute;
+	bottom: 5%;
 	border: solid 1px #FFE0BB;
 	opacity: 0.5;
 	color: #000;
