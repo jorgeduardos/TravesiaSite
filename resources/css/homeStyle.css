@@ -99,8 +99,8 @@ header{
 }
 
 .title{
-	font-family: 'Cinzel Decorative', cursive;
-	font-size: 150px;
+	/*font-family: 'Cinzel Decorative', cursive;*/
+	font-size: 250px;
 	margin-top: 25%;
 	opacity: 0.65;
 }
@@ -150,7 +150,8 @@ header button:hover{
 }
 
 .grid div{
-	height: 550px;
+	/*height: 550px;*/
+	height: 60vh;
 }
 
 /*.grid .col-md-6{
@@ -169,7 +170,7 @@ header button:hover{
 .bkgGrey{
 	font-size: 120%;
 	padding-top: 50px;
-	background-color: #979797;
+	background-color: #B7B7B7;
 }
 
 .bkgGrey h3{
@@ -287,14 +288,15 @@ footer{
 }
 
 .slider{
-  height: 550px;
+  /*height: 550px;*/
+  height: 60vh;
   /*width: 10000px;*/
 /*  margin-top: 100px;*/
 
 }
 
 .innerSlider{
-  height: inherit;
+  height: 60vh;
   width: 100vw;
   background-color: #eee;
   float: left;
@@ -305,6 +307,28 @@ footer{
   margin-top: 10px;
   width:100px;
 }
+
+.ion-ios-arrow-left{
+	position: absolute;
+	left: 0;
+	top: 60%;
+	font-size: 100px;
+	z-index: 10;
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+.ion-ios-arrow-right{
+	position: absolute;
+	right: 0;
+	top: 60%;
+	font-size: 100px;
+	z-index: 10;
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+
 
 /*************** SCROLL BAR **************/
 

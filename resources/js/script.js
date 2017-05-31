@@ -41,7 +41,17 @@ $(document).ready(function(){
 	      $(".slider").first().css("marginLeft", "0px");
 	      $(".slider").animate({marginLeft: "-=" + pixelsToMove + "px"});
 	    }  
-	  });  
+	  });
+
+	  // $(".ion-ios-arrow-left").on("click", function(){
+	  //   console.log(parseInt($(".slider").first().css("marginLeft")));
+	  //   if(parseInt($(".slider").first().css("marginLeft")) !== (innerSliderCount-1)*pixelsToMove*-1){
+	  //     $(".slider").animate({marginLeft: "+=" + pixelsToMove + "px"});
+	  //   }else{
+	  //     $(".slider").first().css("marginLeft", "0px");
+	  //     $(".slider").animate({marginLeft: "+=" + pixelsToMove + "px"});
+	  //   }  
+	  // });
 
 });
 
