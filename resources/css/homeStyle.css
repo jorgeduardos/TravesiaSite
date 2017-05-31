@@ -116,6 +116,7 @@ header img{
 header button{
 	position: absolute;
 	bottom: 5%;
+	left: 46%;
 	border: solid 1px #FFE0BB;
 	opacity: 0.5;
 	color: #000;
