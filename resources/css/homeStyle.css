@@ -6,14 +6,15 @@ body{
 	padding: 0;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 30px;
+	overflow-x: none;
 }
 
 
 /**************** REUSABLE *****************/
 
-.myContainer{
+/*.myContainer{
 	width: 100%;
-}
+}*/
 
 
 
@@ -274,3 +275,31 @@ footer{
     padding-top: 15px;
 }
 
+/********************* SLIDER ****************/
+
+.sliderContainer{
+	width: 100vw;
+	margin: 0 auto;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.slider{
+  height: 550px;
+  /*width: 10000px;*/
+/*  margin-top: 100px;*/
+
+}
+
+.innerSlider{
+  height: inherit;
+  width: 100vw;
+  background-color: #eee;
+  float: left;
+}
+
+
+#button{
+  margin-top: 10px;
+  width:100px;
+}
