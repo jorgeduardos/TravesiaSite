@@ -92,7 +92,9 @@ body{
 
 header{
 	height: 100vh;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/groupOfPeople.jpg);
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3972.JPG);
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3972.JPG);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3972.JPG);
 	background-size: cover;
 	text-align: center;
 	color: #fff;
@@ -182,18 +184,23 @@ header button:hover{
 	margin-top: 60px;
 }
 
+.reachContainer h2{
+	margin-bottom: 60px;
+}
+
 .socialReachInner{
 	position: relative;
 }
 
 .socialReachInner img{
 	float: left;
+	margin-left: 100px;
 }
 
 .smrNumber{
 	position: absolute;
 	top: 32%;
-	right: 10%;
+	right: 17%;
 	font-weight: bold;
 	font-size: 130px;
 	color: #333;
@@ -310,24 +317,53 @@ footer{
 
 .ion-ios-arrow-left{
 	position: absolute;
-	left: 0;
-	top: 60%;
+	left: 2%;
+	top: 35%;
 	font-size: 100px;
 	z-index: 10;
 	opacity: 0.3;
 	cursor: pointer;
+	color: #6F6F6F;
+	animation: arrowLeft 2s linear infinite;
 }
+
 
 .ion-ios-arrow-right{
 	position: absolute;
-	right: 0;
-	top: 60%;
+	right: 1%;
+	top: 35%;
 	font-size: 100px;
 	z-index: 10;
 	opacity: 0.3;
 	cursor: pointer;
+	color: #6F6F6F;
+	animation: arrowRight 2s linear infinite;
 }
 
+
+@keyframes arrowRight{
+	0%{
+		right: 0.5%;
+	}
+	50%{
+		right: 0%;
+	}
+	100%{
+		right: 0.5%;
+	}
+}
+
+@keyframes arrowLeft{
+	0%{
+		left: 0.5%;
+	}
+	50%{
+		left: 0%;
+	}
+	100%{
+		left: 0.5%;
+	}	
+}
 
 
 /*************** SCROLL BAR **************/
