@@ -107,6 +107,7 @@ header{
   	position: absolute;
   	top: 0; left: 0; bottom: 0; right: 0;
   	height: 400px;
+  	opacity: 0.8;
 }
 
 .title{
@@ -131,7 +132,7 @@ header{
   	position: absolute;
   	top: 0; left: 0; bottom: 0; right: 0;
 	height: 100vh;
-	opacity: 0.2;
+	opacity: 0.1;
 	
 }
 
@@ -374,6 +375,7 @@ footer{
 	overflow-x: hidden;
 	overflow-y: hidden;
 	box-shadow: 5px 5px 5px #888888;
+	position: relative;
 }
 
 .slider{
