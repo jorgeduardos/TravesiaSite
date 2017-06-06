@@ -177,19 +177,51 @@ header button:hover{
 }
 */
 
-.iconDiv{
-	float: left;
-}
-
 .grid i{
 	display: block;
 	font-size: 70px;
 	transition: color 1s;
 }
 
+.ion-social-twitter{
+	margin-top: 40px;
+}
+
 .profileRows{
 	border-bottom: 5px dashed #DFDFDF;
-	padding-bottom: 20px;
+	padding-bottom: 7px;
+}
+
+.profileRowFirst{
+	margin-top: 35px;
+}
+
+.profileRowLast{
+	background-color: #f1d13e;
+}
+
+.col-xs-10{
+	display: inline-block;
+	width: 10%;
+}
+
+.col-xs-30{
+	display: inline-block;
+	width: 27%;
+}
+
+.profileRows h4{
+	font-size: 35px;
+	background-color: #f1d13e;
+	box-shadow: 0 0 10px #7C7B7B;
+	padding: 5px 0 5px 0;
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.pMidle{
+	margin-top: 20px;
 }
 
 .grid .ion-social-instagram:hover{
@@ -212,6 +244,10 @@ header button:hover{
 .bkgBlack{
 	/*background-color: #000;*/
 	background-color: #F6F6F6;
+}
+
+.bkgBlack img{
+	margin-top: 60px;
 }
 
 .bkgGrey{
@@ -389,14 +425,14 @@ footer{
 
 .slider{
   /*height: 550px;*/
-  height: 80vh;
+  height: 90vh;
   /*width: 10000px;*/
 /*  margin-top: 100px;*/
 
 }
 
 .innerSlider{
-  height: 80vh;
+  height: 90vh;
   width: 100vw;
   background-color: #F6F6F6;
   float: left;
