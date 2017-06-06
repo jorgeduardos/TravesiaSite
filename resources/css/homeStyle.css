@@ -99,6 +99,7 @@ header{
 	background-size: cover;
 	text-align: center;
 	color: #fff;
+	position: relative;
 }
 
 .title{
@@ -119,12 +120,13 @@ header{
 	/*margin-right: 215px;*/
 }
 
-header img{
-	position: absolute;
+#headerLogo{
+	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
 	height: 100vh;
 	opacity: 0.2;
-	top: 0;
-	right: 38%;
+	
 }
 
 header button{
@@ -224,13 +226,14 @@ header button:hover{
 
 .socialReachInner img{
 	float: left;
-	margin-left: 100px;
+	margin-left: 5%;
+	/*width: 70%;*/
 }
 
 .smrNumber{
 	position: absolute;
 	top: 32%;
-	right: 17%;
+	right: 15%;
 	font-weight: bold;
 	font-size: 130px;
 	color: #333;
@@ -240,6 +243,29 @@ header button:hover{
 	border-bottom-left-radius: 100px;
 }
 
+.embajadorContainer{
+	margin-top: 120px;
+}
+
+.embajadorContainer h4{
+	font-size: 60px;
+	margin-bottom: 40px;
+}
+
+
+
+.embajadorContainer .col-xs-2{
+	height: 180px;
+	position: relative;
+}
+
+.embajadorContainer img{
+	margin: auto;
+ 	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+	/*height: inherit;*/
+	width: 70%;
+}
 
 /******************* CONTATC *******************/
 
@@ -265,7 +291,11 @@ header button:hover{
 
 .contact h2{
 	font-size: 80px;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
+}
+
+.contact p{
+	font-size: 72%;
 }
 
 .input-group, #mensaje{
