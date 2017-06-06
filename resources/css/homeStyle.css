@@ -226,8 +226,8 @@ header button:hover{
 
 .socialReachInner img{
 	float: left;
-	margin-left: 5%;
-	/*width: 70%;*/
+	/*margin-left: 5%;*/
+	width: 60%;
 }
 
 .smrNumber{
