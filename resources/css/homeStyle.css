@@ -4,8 +4,8 @@ body{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: 'Oswald', 'Open Sans Condensed', sans-serif;
-	font-size: 35px;
+	font-family: 'Montserrat', 'Oswald', 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
 	font-weight: 300;
 	overflow-x: hidden;
 }
@@ -171,20 +171,14 @@ header button:hover{
 	padding-bottom: 110px;
 }
 
-
-/*.grid .col-md-6{
-	margin-top: 100px;                                              option for about grid
-}
-*/
-
 .grid i{
 	display: block;
-	font-size: 70px;
+	font-size: 50px;
 	transition: color 1s;
 }
 
 .ion-social-twitter{
-	margin-top: 40px;
+	margin-top: 45px;
 }
 
 .profileRows{
@@ -200,18 +194,37 @@ header button:hover{
 	background-color: #f1d13e;
 }
 
+.profileRowLast .col-xs-12 div{
+	float: left;
+	margin-right: 45px;
+	height: 100%;
+}
+
+.profileRowLast .col-xs-12 p, .profileRowLast .col-xs-12 i{
+	display: inline-block;
+}
+
+.profileRowLast .col-xs-12 p{
+	font-size: 200%;
+}
+
+.profileRowLast .col-xs-12 i{
+	font-size: 250%;
+}
+
 .col-xs-10{
 	display: inline-block;
-	width: 10%;
+	width: 8%;
+	margin-top: 15px;
 }
 
 .col-xs-30{
 	display: inline-block;
-	width: 27%;
+	width: 28%;
 }
 
 .profileRows h4{
-	font-size: 35px;
+	font-size: 25px;
 	background-color: #f1d13e;
 	box-shadow: 0 0 10px #7C7B7B;
 	padding: 5px 0 5px 0;
@@ -221,7 +234,16 @@ header button:hover{
 }
 
 .pMidle{
-	margin-top: 20px;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+.pSmall{
+	font-size: 15px;
+}
+
+.pSmall.white{
+	color: #F6F6F6;
 }
 
 .grid .ion-social-instagram:hover{
@@ -251,15 +273,15 @@ header button:hover{
 }
 
 .bkgGrey{
-	font-size: 120%;
-	padding-top: 50px;
+	font-size: 100%;
+	padding-top: 10px;
 	/*background-color: #B7B7B7;*/
 	background-color: #F6F6F6;
 }
 
 .bkgGrey h3{
 	font-weight: bold;
-	font-size: 110px;
+	font-size: 100px;
 	letter-spacing: 5px;
 	text-align: left;
 }
@@ -317,6 +339,19 @@ header button:hover{
   	top: 0; left: 0; bottom: 0; right: 0;
 	/*height: inherit;*/
 	width: 70%;
+}
+
+.noBorder{
+	border-bottom: none;
+}
+
+.profileRowLast .col-xs-12 div.instagramAcc{
+	float: right;
+}
+
+.años{
+	margin-top: 15px;
+	margin-left: 35px;
 }
 
 /******************* CONTATC *******************/
@@ -425,14 +460,14 @@ footer{
 
 .slider{
   /*height: 550px;*/
-  height: 90vh;
+  /*height: 90vh;*/
   /*width: 10000px;*/
 /*  margin-top: 100px;*/
 
 }
 
 .innerSlider{
-  height: 90vh;
+  /*height: 90vh;*/
   width: 100vw;
   background-color: #F6F6F6;
   float: left;
