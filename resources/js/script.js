@@ -73,8 +73,8 @@ $(document).ready(function(){
     console.log("slider width after resize = " + $(".slider").eq(0).css("width"));
    pixelsToMove = sliderW/innerSliderCount;
    console.log("pixelsToMove after resize = " + pixelsToMove)
-   
  });
+ 
 });
 
 //little function to count number of slides in the page
