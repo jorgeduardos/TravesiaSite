@@ -1,8 +1,60 @@
 /* Big tablet to 1200px (widths smaller taht the 1140px row) */
 @media only screen and (max-width: 1200px) {
 
+	body{
+		font-size: 23px;
+	}
+
+	header button{
+		left: 42%;
+	}
+
     .about h2{
-        font-size: 80px;
+        font-size: 70px;
+    }
+
+    .sliderContainer{
+    	height: 755px;
+    }
+
+    .bkgGrey h3{
+    	font-size: 70px;
+    }
+
+    .profileRows h4{
+    	font-size: 21px;
+    }
+
+    #seguidores{
+    	width: 170px;
+    }
+
+    #crecimiento{
+    	width: 190px;
+    }
+
+    #impacto{
+		width: 140px;
+    }
+
+    .grid i{
+    	font-size: 45px;
+    }
+
+    .profileRowLast .col-xs-12 p{
+    	font-size: 160%;
+    }
+
+    .años{
+    	margin-top: 20px;
+    }
+
+    .reachContainer h2{
+    	font-size: 60px;
+    }
+
+    .contact h2{
+    	font-size: 70px;
     }
 
 }
