@@ -199,6 +199,7 @@ header button:hover{
 	height: 100%;
 }
 
+
 .profileRowLast .col-xs-12 p, .profileRowLast .col-xs-12 i{
 	display: inline-block;
 }
@@ -365,6 +366,13 @@ header button:hover{
 
 .profileRowLast .col-xs-12 div.instagramAcc{
 	float: right;
+}
+
+.instagramAcc .logoWhite{
+	/*display: inline-block;*/
+	height: 70px;
+	margin-left: 10px;
+	margin-top: -20px;
 }
 
 .años{
