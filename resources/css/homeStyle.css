@@ -225,10 +225,21 @@ header button:hover{
 	font-size: 25px;
 	background-color: #f1d13e;
 	box-shadow: 0 0 10px #7C7B7B;
-	padding: 5px 0 5px 0;
-	width: 60%;
+	padding: 5px 0;
 	margin: 0 auto;
 	margin-bottom: 15px;
+}
+
+.seguidores{
+	width: 200px;
+}
+
+.crecimiento{
+	width: 210px;
+}
+
+.impacto{
+	width: 160px;
 }
 
 .pMidle{
@@ -455,7 +466,7 @@ footer{
 
 .sliderContainer{
 	width: 100vw;
-	height: 875px;
+	height: 870px;
 	margin: 0 auto;
 	overflow-x: hidden;
 	overflow-y: hidden;
