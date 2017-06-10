@@ -293,9 +293,10 @@ header button:hover{
 .bkgGrey h3{
 	font-weight: bold;
 	font-size: 70px;
-	letter-spacing: 3px;
+	/*letter-spacing: 3px;*/
 	text-align: left;
 	margin-left: 15px;
+	color: #F1D13F;
 }
 
 .description{

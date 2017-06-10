@@ -63,8 +63,7 @@ $(document).ready(function(){
   }); 
   
   
-  
- //not working fully yet **************************************
+ //resize event on slider
  $(window).on("resize", function(){
    innerSliderW = $(".innerSlider").first().width();
    console.log("innerSlider width after resize = " + innerSliderW);
