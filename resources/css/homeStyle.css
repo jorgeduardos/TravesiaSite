@@ -24,7 +24,7 @@ body{
 .navBar{
 	position: fixed;
 	width: 900px;
-	height: 55px;
+	height: 42px;
 	top: 5%;
 	background-color: #FFFCF9;
 	border: 1px solid #E1E1E1
@@ -139,7 +139,7 @@ header button{
 	margin: auto;
 	position: absolute;
 	bottom: 5%;
-	left: 43%;
+	left: 44%;
 	border: solid 1px #FFE0BB;
 	opacity: 0.5;
 	color: #000;
@@ -379,7 +379,7 @@ header button:hover{
 }
 
 .contact .jumbotron{
-	height: 420px;
+	height: 400px;
 }
 
 .contactLine{

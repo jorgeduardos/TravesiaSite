@@ -13,9 +13,7 @@
         font-size: 70px;
     }
 
-    .sliderContainer{
-    	height: 755px;
-    }
+
 
     .bkgGrey h3{
     	font-size: 70px;
@@ -63,6 +61,49 @@
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
 
+	body{
+		font-size: 20px;
+	}
+
+	.navBar{
+		width: 750px;
+	}
+
+	 .about h2{
+        font-size: 60px;
+    }
+
+    .bkgGrey h3{
+    	font-size: 65px;
+    }
+
+    #seguidores{
+    	width: 160px;
+    }
+
+    #crecimiento{
+    	width: 170px;
+    }
+
+    #impacto{
+		width: 130px;
+    }
+
+    .grid i{
+    	font-size: 40px;
+    }
+
+	.embajadorContainer h4{
+		font-size: 50px;
+	}
+
+	.contact h2{
+		font-size: 60px;
+	}
+	
+	.backTop_div{
+		height: 60px;
+	}
 
 }
 
