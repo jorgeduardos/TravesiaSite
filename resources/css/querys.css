@@ -19,19 +19,23 @@
     	font-size: 70px;
     }
 
+     .bkgBlack img{
+     	height: 450px;
+     }
+
     .profileRows h4{
     	font-size: 21px;
     }
 
-    #seguidores{
+    .seguidores{
     	width: 170px;
     }
 
-    #crecimiento{
+    .crecimiento{
     	width: 190px;
     }
 
-    #impacto{
+    .impacto{
 		width: 140px;
     }
 
@@ -77,16 +81,20 @@
     	font-size: 65px;
     }
 
-    #seguidores{
+    .seguidores{
     	width: 160px;
     }
 
-    #crecimiento{
+    .crecimiento{
     	width: 170px;
     }
 
-    #impacto{
+    .impacto{
 		width: 130px;
+    }
+
+    .pSmall{
+    	font-size: 10px;
     }
 
     .grid i{
@@ -128,15 +136,15 @@
 		font-size: 16px;
 	}
 
-    #seguidores{
+    .seguidores{
     	width: 130px;
     }
 
-    #crecimiento{
+    .crecimiento{
     	width: 140px;
     }
 
-    #impacto{
+    .impacto{
 		width: 105px;
     }
 
@@ -145,7 +153,7 @@
     }
 
     .pSmall{
-    	font-size: 10px;
+    	font-size: 9px;
     }
 
     .profileRowLast .col-xs-12 p{
