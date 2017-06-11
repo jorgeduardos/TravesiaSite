@@ -33,6 +33,7 @@ body{
 	z-index: 10;
 	opacity: 0.95;
 	display: none;
+	box-shadow: 3px 3px 3px  #8A8A8A;
 }
 
 .navBar ul{
@@ -72,7 +73,7 @@ body{
 #menu-icon-div{
     background-color: #505050;
     opacity: 0.8;
-    width: 35px;
+    width: 45px;
     position: fixed;
     right: 3%;
     top: 6%;
@@ -87,6 +88,7 @@ body{
 .menu_icon{
 	cursor: pointer;
     color: #000;
+    font-size: 35px;
 }
 
 
@@ -156,6 +158,7 @@ header button:hover{
 
 
 /*********************** ABOUT ***********************/
+
 
 .about, .about .container{
 	position: relative;
@@ -367,6 +370,7 @@ header button:hover{
 
 .profileRowLast .col-xs-12 div.instagramAcc{
 	float: right;
+	font-weight: 500;
 }
 
 .instagramAcc .logoWhite{
