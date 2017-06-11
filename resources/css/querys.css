@@ -109,9 +109,64 @@
 
 
 
-/* Small phones to small tablets: from 481px to 767px */
+/* Small phones to small tablets: from 481px to 767px */                                             /* REDISEÑAR NAVBAR */
 @media only screen and (max-width: 767px) {
-    
+
+    body{
+    	font-size: 19px;
+    }
+	
+	header .title{
+		font-size: 133px;
+	}
+
+	.titleContainer h3{
+		font-size: 30px;
+	}
+
+	.profileRows h4{
+		font-size: 16px;
+	}
+
+    #seguidores{
+    	width: 130px;
+    }
+
+    #crecimiento{
+    	width: 140px;
+    }
+
+    #impacto{
+		width: 105px;
+    }
+
+    .grid i{
+    	font-size: 35px;
+    }
+
+    .pSmall{
+    	font-size: 10px;
+    }
+
+    .profileRowLast .col-xs-12 p{
+    	font-size: 120%;
+    }
+
+    .años{
+    	margin-top: 23px;
+    }
+
+    .instagramAcc .logoWhite{
+    	height: 50px;
+    	margin-top: -15px;
+    }
+
+    .bkgBlack img{
+    	height: 400px;
+    	margin-bottom: 10px;
+    	margin-top: 15px;
+    }
+
 }
 
 

@@ -24,9 +24,9 @@ body{
 .navBar{
 	position: fixed;
 	width: 950px;
-	height: 55px;
+	height: 50px;
 	top: 5%;
-	font-size: 32px;
+	font-size: 140%;
 	background-color: #FFFCF9;
 	border: 1px solid #E1E1E1
 	text-align: center;
@@ -49,7 +49,7 @@ body{
 }
 
 .navBar li:hover{
-	background-color: #FFC887;
+	background-color: #F1D13F;
 }
 
 /*#logoNavbar{
@@ -73,7 +73,7 @@ body{
 #menu-icon-div{
     background-color: #505050;
     opacity: 0.8;
-    width: 45px;
+    width: 40px;
     position: fixed;
     right: 3%;
     top: 6%;
@@ -82,13 +82,13 @@ body{
 }
 
 #menu-icon-div:hover{
-    background-color: #2B2B2B;
+    background-color: #F1D13F;
 }
 
 .menu_icon{
 	cursor: pointer;
     color: #000;
-    font-size: 35px;
+    font-size: 28px;
 }
 
 
@@ -143,17 +143,17 @@ header button{
 	position: absolute;
 	bottom: 5%;
 	left: 44%;
-	border: solid 1px #FFE0BB;
+	border: solid 1px #faefbe;
 	opacity: 0.5;
 	color: #000;
 	font-weight: 300;
-	background-color: #FFE0BB;
+	background-color: #faefbe;
 	transition: background-color 0.8s;
 }
 
 header button:hover{
-	background-color: #FFC887;
-	border: solid 1px #FBAE51;
+	background-color: #f1d13f;
+	border: solid 1px #efc91f;
 }
 
 
@@ -289,7 +289,6 @@ header button:hover{
 }
 
 .bkgGrey{
-	font-size: 100%;
 	padding-top: 10px;
 	/*background-color: #B7B7B7;*/
 	background-color: #F6F6F6;
