@@ -94,6 +94,50 @@ body{
 
 /***************** MOBILE NAVBAR **************/
 
+.mobile-nav{
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	background-color: #FFFCF9;
+	text-align: center;
+	z-index: 10;
+}
+
+.mobile-nav ul{
+	text-align: center;
+	width: inherit;
+}
+
+.mobile-nav li{
+	display: block;
+	width: 97%;
+	padding: 15px;
+	background-color: #F1D13F;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.mobile-nav .mobile-nav-upper{
+	background-color: #FFFCF9;
+	font-size: 130%;
+	text-align: left;
+}
+
+.mobile-nav li:hover{
+	background-color: #EDC718;
+}
+
+#mobile-nav-icon{
+	background-color: #505050;
+    opacity: 0.8;
+    width: 40px;
+    position: fixed;
+    right: 3%;
+    top: 2%;
+    z-index: 50;
+    text-align: center;
+}
+
 
 /******************** HEADER *******************/
 

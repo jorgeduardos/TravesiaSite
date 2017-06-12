@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	
 	$(".menu_icon").on("click", function(){
 
 		if($(this).hasClass("ion-navicon-round")){
