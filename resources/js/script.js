@@ -26,6 +26,30 @@ $(document).ready(function(){
 		}
 	});
 
+
+	//NAV BAR ANIMATIONS
+	$('.js-nav-home').click(function(){
+       $('html, body').animate({scrollTop: $('.js-home').offset().top}, 1500);
+    });
+    
+    $('.js-nav-what').click(function(){
+       $('html, body').animate({scrollTop: $('.js-what').offset().top -100}, 1500);
+    });
+    
+    $('.js-nav-who').click(function(){
+       $('html, body').animate({scrollTop: $('.js-who').offset().top -100}, 1500); 
+    });
+    
+    $('.js-nav-contact').click(function(){
+       $('html, body').animate({scrollTop: $('.js-contact').offset().top -100}, 1500);  
+    });
+
+    $('.js--backTop').click(function(){
+       $('html, body').animate({scrollTop: $('.js-home').offset().top -100}, 1500);  
+    });
+     
+
+
 	/* SLIDER */
 
 	  //width of each individual slide

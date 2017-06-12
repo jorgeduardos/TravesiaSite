@@ -69,6 +69,12 @@
 		font-size: 20px;
 	}
 
+    header{
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986_2.jpg);
+        background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986_2.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986_2.jpg);
+    }
+
 	.navBar{
 		width: 750px;
 	}
@@ -123,10 +129,18 @@
     body{
     	font-size: 19px;
     }
+
+    header{
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.jpg);
+        background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.jpg);
+        background-size: 100vh;
+        background-position: 50% 25%;
+    }
 	
 	header .title{
-		font-size: 133px;
-	}
+        font-size: 133px;
+    }
 
 	.titleContainer h3{
 		font-size: 30px;

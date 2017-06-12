@@ -20,10 +20,10 @@
 <body>
 	<nav class="navBar">
 		<ul>
-			<li><a href="#"></a>Inicio</li>
-			<li><a href="#"></a>Qué?</li>
-			<li><a href="#"></a>Quiénes?</li>
-			<li><a href="#"></a>Contáctanos</li>
+			<li><a class="js-nav-home" href="#"></a>Inicio</li>
+			<li><a class="js-nav-what" href="#"></a>Qué?</li>
+			<li><a class="js-nav-who" href="#"></a>Quiénes?</li>
+			<li><a class="js-nav-contact" href="#"></a>Contáctanos</li>
 			<li class="liLogo">Traves<img id="logoNavbar" src="resources/css/images/logoDeifnitivo.png" alt="Travesia Logo">a</li>
 		</ul>
 		<!-- <a href="#"><img id="logoNavbar" src="resources/css/images/logoDeifnitivo.png" alt="Travesia Logo"></a> -->
@@ -31,16 +31,16 @@
 	<nav class="mobile-nav">
 		<ul>
 			<li id="mobile-nav-upper">Traves<img id="logoNavbar" src="resources/css/images/logoDeifnitivo.png" alt="Travesia Logo">a</li>
-			<li><a href="#"></a>Inicio</li>
-			<li><a href="#"></a>Qué?</li>
-			<li><a href="#"></a>Quiénes?</li>
-			<li><a href="#"></a>Contáctanos</li>
+			<li><a class="js-nav-home" href="#"></a>Inicio</li>
+			<li><a class="js-nav-what" href="#"></a>Qué?</li>
+			<li><a class="js-nav-who" href="#"></a>Quiénes?</li>
+			<li><a class="js-nav-contact" href="#"></a>Contáctanos</li>
 		</ul>
 		<!-- <a href="#"><img id="logoNavbar" src="resources/css/images/logoDeifnitivo.png" alt="Travesia Logo"></a> -->
 	</nav>
 	<div id="menu-icon-div"><i class="menu_icon ion-navicon-round"></i></div>
 	<div id="mobile-nav-icon"><i class="menu_icon_mobile ion-navicon-round"></i></div>
-	<header>
+	<header class="js-home">
 		<div class="container">
 			<div class="titleContainer">
 				<h1 class="title">Travesía</h1>
@@ -50,7 +50,7 @@
 			<a href="#"><button>conocenos</button></a>
 		</div>
 	</header>
-	<section class="about">
+	<section class="about js-what">
 		<div class="container-fluid">
 			<div class="aboutP">
 				<h2>¿Qué es Travesía?</h2>
@@ -59,7 +59,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="sliderContainer">
+		<div class="sliderContainer js-who">
 		<i id="right" class="ion-ios-arrow-right"></i>
 		<i id="left" class="ion-ios-arrow-left"></i>
 			<div class="slider grid">
@@ -868,7 +868,7 @@
 			</div>
 		</div> 
 	</section>
-	<section class="contact">
+	<section class="contact js-contact">
 		<div class="container">
 			<div class="jumbotron">
 				<div class="col-md-6">
