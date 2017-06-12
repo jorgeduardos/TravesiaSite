@@ -70,9 +70,7 @@
 	}
 
     header{
-        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986_2.jpg);
-        background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986_2.jpg);
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986_2.jpg);
+       background-position: 50% 50%;
     }
 
 	.navBar{
@@ -119,6 +117,12 @@
 		height: 60px;
 	}
 
+}
+
+@media only screen and (max-width: 991px){
+    .contact .jumbotron{
+        height: 650px;
+    }
 }
 
 

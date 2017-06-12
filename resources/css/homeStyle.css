@@ -49,6 +49,11 @@ body{
 	cursor: pointer;
 }
 
+.navBar a{
+	text-decoration: none;
+	color: #000;
+}
+
 .navBar li:hover{
 	background-color: #F1D13F;
 }
@@ -121,6 +126,11 @@ body{
 	cursor: pointer;
 }
 
+.mobile-nav a{
+	text-decoration: none;
+	color: #000;
+}
+
 .mobile-nav li:hover{
 	background-color: #EDC718;
 }
@@ -142,6 +152,10 @@ body{
     z-index: 50;
     text-align: center;
     display: none;
+}
+
+#mobile-nav-icon:hover{
+    background-color: #F1D13F;
 }
 
 
