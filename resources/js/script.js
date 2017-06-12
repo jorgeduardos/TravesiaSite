@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	
+
 	$(".menu_icon").on("click", function(){
 
 		if($(this).hasClass("ion-navicon-round")){
@@ -12,6 +12,18 @@ $(document).ready(function(){
 			$(".navBar").hide("slide");
 		}
 
+	});
+
+	$(".menu_icon_mobile").on("click", function(){
+		if($(this).hasClass("ion-navicon-round")){
+			$(this).removeClass("ion-navicon-round");
+			$(this).addClass("ion-close-round").show()
+			$(".mobile-nav").show("blind");
+		}else{
+			$(this).addClass("ion-navicon-round");
+			$(this).removeClass("ion-close-round");
+			$(".mobile-nav").hide("blind");
+		}
 	});
 
 	/* SLIDER */
