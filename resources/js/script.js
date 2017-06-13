@@ -49,6 +49,16 @@ $(document).ready(function(){
     });
      
 
+    $('.js-what').waypoint(function(direction) {
+        if (direction == "down") {
+            $('.navBar').addClass('blackNav');
+        } else {
+            $('.navBar').removeClass('blackNav');
+        }
+    }, {
+      offset: '60px;'
+    }); 
+
 
 	/* SLIDER */
 
