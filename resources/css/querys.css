@@ -1,0 +1,218 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+	body{
+		font-size: 23px;
+	}
+
+	header button{
+		left: 42%;
+	}
+
+    .about h2{
+        font-size: 70px;
+    }
+
+
+
+    .bkgGrey h3{
+    	font-size: 70px;
+    }
+
+     .bkgBlack img{
+     	height: 450px;
+     }
+
+    .profileRows h4{
+    	font-size: 21px;
+    }
+
+    .seguidores{
+    	width: 170px;
+    }
+
+    .crecimiento{
+    	width: 190px;
+    }
+
+    .impacto{
+		width: 140px;
+    }
+
+    .grid i{
+    	font-size: 45px;
+    }
+
+    .profileRowLast .col-xs-12 p{
+    	font-size: 160%;
+    }
+
+    .años{
+    	margin-top: 20px;
+    }
+
+    .reachContainer h2{
+    	font-size: 60px;
+    }
+
+    .contact h2{
+    	font-size: 70px;
+    }
+
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+	body{
+		font-size: 20px;
+	}
+
+    header{
+       background-position: 50% 50%;
+    }
+
+	.navBar{
+		width: 750px;
+	}
+
+	 .about h2{
+        font-size: 60px;
+    }
+
+    .bkgGrey h3{
+    	font-size: 65px;
+    }
+
+    .seguidores{
+    	width: 160px;
+    }
+
+    .crecimiento{
+    	width: 170px;
+    }
+
+    .impacto{
+		width: 130px;
+    }
+
+    .pSmall{
+    	font-size: 10px;
+    }
+
+    .grid i{
+    	font-size: 40px;
+    }
+
+	.embajadorContainer h4{
+		font-size: 50px;
+	}
+
+	.contact h2{
+		font-size: 60px;
+	}
+	
+	.backTop_div{
+		height: 60px;
+	}
+
+}
+
+@media only screen and (max-width: 991px){
+    .contact .jumbotron{
+        height: 650px;
+    }
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */                                             /* REDISEÑAR NAVBAR */
+@media only screen and (max-width: 767px) {
+
+    body{
+    	font-size: 19px;
+    }
+
+    header{
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.jpg);
+        background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.jpg);
+        background-size: 100vh;
+        background-position: 50% 25%;
+    }
+	
+	header .title{
+        font-size: 15vw;
+    }
+
+	.titleContainer h3{
+		font-size: 30px;
+	}
+
+	.bkgGrey h3{
+    	font-size: 40px;
+    }
+
+	.profileRows h4{
+		font-size: 16px;
+	}
+
+    .seguidores{
+    	width: 130px;
+    }
+
+    .crecimiento{
+    	width: 140px;
+    }
+
+    .impacto{
+		width: 105px;
+    }
+
+    .grid i{
+    	font-size: 35px;
+    }
+
+    .pSmall{
+    	font-size: 9px;
+    }
+
+    .profileRowLast .col-xs-12 p{
+    	font-size: 120%;
+    }
+
+    .años{
+    	margin-top: 23px;
+    }
+
+    .instagramAcc .logoWhite{
+    	height: 50px;
+    	margin-top: -15px;
+    }
+
+    .bkgBlack img{
+    	height: 400px;
+    	margin-bottom: 10px;
+    	margin-top: 15px;
+    }
+
+    .navBar{
+        display: none;
+    }
+
+    #mobile-nav-icon{
+        display: block
+    }
+
+    #menu-icon-div{
+        display: none;
+    }
+
+}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+}

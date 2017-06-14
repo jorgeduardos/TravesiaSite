@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	$(".menu_icon").on("click", function(){
 
 		if($(this).hasClass("ion-navicon-round")){
@@ -12,6 +13,52 @@ $(document).ready(function(){
 		}
 
 	});
+
+	$(".menu_icon_mobile").on("click", function(){
+		if($(this).hasClass("ion-navicon-round")){
+			$(this).removeClass("ion-navicon-round");
+			$(this).addClass("ion-close-round").show()
+			$(".mobile-nav").show("blind");
+		}else{
+			$(this).addClass("ion-navicon-round");
+			$(this).removeClass("ion-close-round");
+			$(".mobile-nav").hide("blind");
+		}
+	});
+
+
+	//NAV BAR ANIMATIONS
+	$('.js-nav-home').click(function(){
+       $('html, body').animate({scrollTop: $('.js-home').offset().top}, 1500);
+    });
+    
+    $('.js-nav-what').click(function(){
+       $('html, body').animate({scrollTop: $('.js-what').offset().top -100}, 1500);
+    });
+    
+    $('.js-nav-who').click(function(){
+       $('html, body').animate({scrollTop: $('.js-who').offset().top -100}, 1500); 
+    });
+    
+    $('.js-nav-contact').click(function(){
+       $('html, body').animate({scrollTop: $('.js-contact').offset().top -100}, 1500);  
+    });
+
+    $('.js--backTop').click(function(){
+       $('html, body').animate({scrollTop: $('.js-home').offset().top -100}, 1500);  
+    });
+     
+
+    $('.js-what').waypoint(function(direction) {
+        if (direction == "down") {
+            $('.navBar').addClass('blackNav');
+        } else {
+            $('.navBar').removeClass('blackNav');
+        }
+    }, {
+      offset: '60px;'
+    }); 
+
 
 	/* SLIDER */
 
@@ -63,8 +110,7 @@ $(document).ready(function(){
   }); 
   
   
-  
- //not working fully yet **************************************
+ //resize event on slider
  $(window).on("resize", function(){
    innerSliderW = $(".innerSlider").first().width();
    console.log("innerSlider width after resize = " + innerSliderW);
@@ -73,8 +119,9 @@ $(document).ready(function(){
     console.log("slider width after resize = " + $(".slider").eq(0).css("width"));
    pixelsToMove = sliderW/innerSliderCount;
    console.log("pixelsToMove after resize = " + pixelsToMove)
-   
+   $(".slider").first().css("marginLeft", -pixelsToMove);
  });
+ 
 });
 
 //little function to count number of slides in the page
