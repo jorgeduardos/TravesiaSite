@@ -135,9 +135,9 @@
     }
 
     header{
-        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.jpg);
-        background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.jpg);
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.jpg);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.JPG);
+        background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.JPG);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.JPG);
         background-size: 100vh;
         background-position: 50% 25%;
     }
@@ -227,15 +227,11 @@
 	.sliderContainer{
 		font
 	}
-
-	.smrNumber{
-		right: 10%;
-	}
 	
 	.sliderContainer{
 		font-size: 13px;
 	}
-	
+
 	.bkgGrey h3{
 		font-size: 20px;
 	}
@@ -257,12 +253,18 @@
 	}
 
 	.instagramAcc .logoWhite{
-		height: 50px;
-		margin-top: -20px;
+		height: 40px;
+		margin-top: -10px;
+		margin-right: 10px;
 	}
 
 	.profileRowLast .col-xs-12 div{
-		margin-top: 23px;
+		margin-right: 15px;
+		margin-top: 15px;
+	}
+
+	.profileRowLast .col-xs-12 i{
+		font-size: 16px;
 	}
 
 	.profileRows h4{
@@ -280,6 +282,39 @@
     .impacto{
 		width: 60px;
     }
+
+    .socialReachInner img{
+    	/*width: 300px;
+    	margin-left: -50px;*/
+    	display: none;
+    }
+
+
+	.smrNumber{
+/*		right: 4%;
+		font-size: 8vw;
+		top: 35%;*/
+		position: static;
+		font-size: 17vw;
+		 background: #f2994a; /* fallback for old browsers */
+ 		 background: -webkit-linear-gradient(to right, #f2994a, #f2c94c); /* Chrome 10-25, Safari 5.1-6 */
+         background: linear-gradient(to right, #f2994a, #f2c94c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.reachContainer h2{
+		margin-bottom: 20px;
+	}
+
+	.embajadorContainer{
+		margin-top: 60px;
+	}
+
+	.embajadorContainer h4{
+
+		margin-bottom: 5px;
+	}
 
 	
 }
