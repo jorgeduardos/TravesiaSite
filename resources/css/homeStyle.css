@@ -163,16 +163,15 @@ body{
     opacity: 0.8;
     width: 30px;
     position: fixed;
-    right: 3%;
-    top: 2%;
+    right: 7%;
+    top: 3%;
     z-index: 50;
     text-align: center;
     display: none;
+    border-radius: 5px;
 }
 
-#mobile-nav-icon:hover{
-    background-color: #F1D13F;
-}
+
 
 
 /******************** HEADER *******************/
@@ -602,9 +601,9 @@ footer{
 	top: 45%;
 	font-size: 100px;
 	z-index: 10;
-	opacity: 0.3;
+	opacity: 0.6;
 	cursor: pointer;
-	color: #6F6F6F;
+	color: #313131;
 	animation: arrowLeft 2s linear infinite;
 }
 
@@ -615,9 +614,9 @@ footer{
 	top: 45%;
 	font-size: 100px;
 	z-index: 10;
-	opacity: 0.3;
+	opacity: 0.6;
 	cursor: pointer;
-	color: #6F6F6F;
+	color: #313131;
 	animation: arrowRight 2s linear infinite;
 }
 

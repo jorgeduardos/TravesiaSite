@@ -202,7 +202,9 @@
     }
 
     #mobile-nav-icon{
-        display: block
+        display: block;
+        background-color: #F1D13F;
+
     }
 
     #menu-icon-div{
@@ -244,13 +246,25 @@
 		padding-right: 0;
 	}
 
+    .col-xs-10{
+        margin-top: 25px;
+    }
+
+    .ion-social-twitter{
+        margin-top: 25px;
+    }
+
 	.grid i{
-		font-size: 14px;
+		font-size: 19px;
 	}
 
 	.profileRowLast .col-xs-12 p{
-		font-size: 13px;
+		font-size: 16px;
 	}
+
+    .años{
+        margin-left: 20px;
+    }
 
 	.instagramAcc .logoWhite{
 		height: 40px;
@@ -315,6 +329,11 @@
 
 		margin-bottom: 5px;
 	}
+
+    .embajadorContainer .col-sm-2{
+        height: 110px;
+    }
+
 
 	
 }
