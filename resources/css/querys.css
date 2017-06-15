@@ -222,6 +222,14 @@
 		font-size: 18px;
 	}
 
+    header{
+        background-attachment: scroll;
+    }
+
+    .titleContainer{
+        height: 115px;
+    }
+
 	.about h2, .embajadorContainer h4, .contact h2{
 		font-size: 40px
 	}
@@ -333,7 +341,11 @@
     .embajadorContainer .col-sm-2{
         height: 110px;
     }
-
-
 	
+}
+
+@media only screen and (max-width: 375px){
+    #mobile-nav-icon{
+        right: 9%;
+    }
 }
