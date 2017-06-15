@@ -235,6 +235,10 @@
 	.sliderContainer{
 		font-size: 13px;
 	}
+	
+	.bkgGrey h3{
+		font-size: 20px;
+	}
 
 	.bkgBlack img{
 		height: 200px;
@@ -260,5 +264,22 @@
 	.profileRowLast .col-xs-12 div{
 		margin-top: 23px;
 	}
+
+	.profileRows h4{
+		font-size: 11px;
+	}
+
+	.seguidores{
+    	width: 72px;
+    }
+
+    .crecimiento{
+    	width: 80px;
+    }
+
+    .impacto{
+		width: 60px;
+    }
+
 	
 }
