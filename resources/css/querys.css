@@ -226,6 +226,15 @@
         background-attachment: scroll;
     }
 
+    .mobile-nav li{
+    	width: 88%;
+    }
+
+    #mobile-nav-icon{
+    	right: 9.5%;
+    	top: 3.5%;
+    }
+
     .titleContainer{
         height: 115px;
     }
@@ -234,8 +243,9 @@
 		font-size: 40px
 	}
 
-	.sliderContainer{
-		font
+	.aboutP{
+		padding-top: 70px;
+		padding-bottom: 90px;
 	}
 	
 	.sliderContainer{
@@ -244,6 +254,10 @@
 
 	.bkgGrey h3{
 		font-size: 20px;
+	}
+
+	.pSmall{
+		font-size: 6px;
 	}
 
 	.bkgBlack img{
@@ -263,7 +277,7 @@
     }
 
 	.grid i{
-		font-size: 19px;
+		font-size: 25px;
 	}
 
 	.profileRowLast .col-xs-12 p{
@@ -341,11 +355,94 @@
     .embajadorContainer .col-sm-2{
         height: 110px;
     }
+
+    .ion-ios-arrow-right, .ion-ios-arrow-left{
+    	font-size: 60px;
+    }
+ 
 	
 }
 
-@media only screen and (max-width: 375px){
-    #mobile-nav-icon{
-        right: 9%;
+@media only screen and (max-width: 375px) and (-webkit-device-pixel-ratio: 2){
+
+    .bkgBlack img{
+    	height: 150px;
+    	margin-top: 50px;
+    }
+
+	.grid i{
+		font-size: 19px;
+	}
+
+	.profileRowLast .col-xs-12 p{
+		font-size: 13px;
+	}
+
+}
+
+@media only screen and (max-width: 320px) and (-webkit-device-pixel-ratio: 2){
+
+	body{
+		font-size: 15px;
+	}
+
+	header .title{
+		font-size: 15vw;
+		letter-spacing: 6px;
+	}
+
+	.titleContainer h3{
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+
+	.about h2, .embajadorContainer h4, .contact h2{
+		font-size: 30px
+	}
+
+	.sliderContainer{
+		font-size: 12px;
+	}
+
+	.grid i{
+		font-size: 15px;
+	}
+
+	.profileRows h4{
+		font-size: 10px;
+	}
+
+	.seguidores{
+		width: 65px;
+	}
+
+	.crecimiento{
+    	width: 70px;
+    }
+
+    .impacto{
+		width: 50px;
+    }
+    .pSmall{
+    	font-size: 5px;
+    }
+
+    .profileRowLast .col-xs-12 p{
+    	font-size: 10px;
+    }
+
+    .instagramAcc .logoWhite{
+    	height: 30px;
+    	margin-top: -5px;
+    }
+
+    .smrNumber{
+    	font-size: 16vw;
+    }
+
+    .input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn{
+    	height: 30px;
+    	padding: 0;
+    	font-style: 8px;
     }
 }
