@@ -140,6 +140,7 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3986.JPG);
         background-size: 100vh;
         background-position: 50% 25%;
+        background-attachment: scroll;
     }
 	
 	header .title{
@@ -305,6 +306,7 @@
 
 	.profileRows h4{
 		font-size: 11px;
+		box-shadow: 5px;
 	}
 
 	.seguidores{
@@ -360,6 +362,11 @@
     	font-size: 60px;
     }
  
+ 	 .input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn{
+    	height: 45px;
+    	padding: 8px;
+    	font-size: 10px;
+    }
 	
 }
 
@@ -442,7 +449,7 @@
 
     .input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn{
     	height: 30px;
-    	padding: 0;
-    	font-style: 8px;
+    	padding: 5px;
+    	font-size: 7px;
     }
 }
