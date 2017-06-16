@@ -257,7 +257,7 @@
 	}
 
 	.pSmall{
-		font-size: 6px;
+		font-size: 5px;
 	}
 
 	.bkgBlack img{
@@ -295,7 +295,7 @@
 	}
 
 	.profileRowLast .col-xs-12 div{
-		margin-right: 15px;
+		margin-right: 10px;
 		margin-top: 15px;
 	}
 
@@ -363,7 +363,7 @@
 	
 }
 
-@media only screen and (max-width: 375px) and (-webkit-device-pixel-ratio: 2){
+@media only screen and (max-width: 375px){
 
     .bkgBlack img{
     	height: 150px;
@@ -380,7 +380,7 @@
 
 }
 
-@media only screen and (max-width: 320px) and (-webkit-device-pixel-ratio: 2){
+@media only screen and (max-width: 320px){
 
 	body{
 		font-size: 15px;
