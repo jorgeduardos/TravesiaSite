@@ -67,7 +67,7 @@ $(document).ready(function(){
             $('.aboutP').addClass('animated fadeInUp');
         }
     }, {
-      offset: '400px;'
+      offset: 500
     }); 
 
 
