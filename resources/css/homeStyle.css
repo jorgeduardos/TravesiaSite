@@ -172,14 +172,18 @@ html, body{
 
 header{
 	height: 100vh;
-	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3972.JPG);
-	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3972.JPG);
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_3972.JPG);
+	background-image: url(images/IMG_3972.JPG);
+	background-image: url(images/IMG_3972.JPG);
+	background-image: url(images/IMG_3972.JPG);
 	background-size: cover;
 	text-align: center;
 	color: #fff;
 	position: relative;
 	background-attachment: fixed;
+}
+
+.blackScreen{
+	
 }
 
 .titleContainer{
