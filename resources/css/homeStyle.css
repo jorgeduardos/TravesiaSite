@@ -289,6 +289,11 @@ header button:hover{
 .aboutP{
 	padding-top: 90px;
 	padding-bottom: 110px;
+	opacity: 0;
+}
+
+.aboutP .animated{
+	opacity: 1;
 }
 
 .grid i{

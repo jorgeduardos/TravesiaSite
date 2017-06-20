@@ -54,11 +54,20 @@ $(document).ready(function(){
     $('.js-what').waypoint(function(direction) {
         if (direction == "down") {
             $('.navBar').addClass('blackNav');
+            $('.aboutP').addClass('animated fadeInUp');
         } else {
             $('.navBar').removeClass('blackNav');
         }
     }, {
       offset: '60px;'
+    }); 
+
+     $('.js-what').waypoint(function(direction) {
+        if (direction == "down") {
+            $('.aboutP').addClass('animated fadeInUp');
+        }
+    }, {
+      offset: '400px;'
     }); 
 
 
