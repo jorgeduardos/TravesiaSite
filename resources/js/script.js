@@ -26,7 +26,7 @@ $(document).ready(function(){
 		}
 	});
 
-	new Vivus('headerLogo', {duration: 200, file: 'logoDefinitivoSVG.svg'});
+	new Vivus('headerLogo', {duration: 190});
 
 
 	//NAV BAR ANIMATIONS
