@@ -225,7 +225,7 @@ header{
   	top: 0; left: 0; bottom: 0; right: 0;
 	height: 100vh;
 	fill-opacity: 0;
-	stroke-opacity: 0.4;
+	stroke-opacity: 0.5;
 	animation: logoFadeIn 1s linear 2s forwards;
 	/*z-index: 25;*/
 	
@@ -498,6 +498,87 @@ header button:hover{
 	margin-top: 15px;
 	margin-left: 35px;
 }
+
+
+/* about animations */
+
+#first h3, #first .description, #first .seguidores, #first .crecimiento, #first .impacto, #first .profileRowFirst .pMidle, #first .profileRowSecond .pMidle, #first .profileRowThird .pMidle, #first .profileRowFourth .pMidle, #first .profileRowFirst .pSmall, #first .profileRowSecond .pSmall, #first .profileRowThird .pSmall, #first .profileRowFourth .pSmall, #first .ion-social-twitter, #first .ion-social-instagram, #first .ion-social-facebook, #first .ion-social-youtube, #first .profileRowLast p, #first .profileRowLast i, #first img{
+	opacity: 0;
+}
+
+#first h3.animated, #first .description.animated, #first .seguidores.animated, #first .crecimiento.animated, #first .impacto.animated, #first .profileRowFirst .pMidle.animated, #first .profileRowSecond .pMidle.animated, #first .profileRowThird .pMidle.animated, #first .profileRowFourth .pMidle.animated, #first .profileRowFirst .pSmall.animated, #first .profileRowSecond .pSmall.animated, #first .profileRowThird .pSmall.animated, #first .profileRowFourth .pSmall.animated, #first .ion-social-twitter.animated, #first .ion-social-instagram.animated, #first .ion-social-facebook.animated, #first .ion-social-youtube.animated, #first .profileRowLast p.animated, #first .profileRowLast i.animated, #first img.animated{
+	opacity: 1;
+}
+
+#first .description{
+	animation-delay: 100ms;
+}
+
+#first .seguidores{
+	animation-delay: 150ms;
+}
+
+#first .crecimiento{
+	animation-delay: 200ms;
+}
+
+#first .impacto{
+	animation-delay: 250ms;
+}
+
+#first .ion-social-twitter{
+	animation-delay: 300ms;
+}
+
+#first .profileRowFirst .pMidle{
+	animation-delay: 350ms;
+}
+
+#first .profileRowFirst .pSmall{
+	animation-delay: 400ms;
+}
+
+#first .ion-social-instagram{
+	animation-delay: 450ms;
+}
+
+#first .profileRowSecond .pMidle{
+	animation-delay: 500ms;
+}
+
+#first .profileRowSecond .pSmall{
+	animation-delay: 550ms;
+}
+
+#first .ion-social-facebook{
+	animation-delay: 600ms;
+}
+
+#first .profileRowThird .pMidle{
+	animation-delay: 650ms;
+}
+
+#first .profileRowThird .pSmall{
+	animation-delay: 700ms;
+}
+
+#first .ion-social-youtube{
+	animation-delay: 750ms;
+}
+
+#first .profileRowFourth .pMidle{
+	animation-delay: 800ms;
+}
+
+#first .profileRowFourth .pSmall{
+	animation-delay: 850ms;
+}
+
+#first .profileRowLast p, #first .profileRowLast i{
+	animation-delay: 900ms;
+}
+
+
 
 /******************* CONTATC *******************/
 

@@ -70,6 +70,33 @@ $(document).ready(function(){
       offset: 500
     }); 
 
+      $('.js-who').waypoint(function(direction) {
+        if (direction == "down") {
+            $('#first h3').addClass('animated bounceInDown');
+            $('#first .description').addClass('animated bounceInDown');
+            $('#first .seguidores').addClass('animated bounceInDown');
+            $('#first .crecimiento').addClass('animated bounceInDown');
+            $('#first .impacto').addClass('animated bounceInDown');
+            $('#first .profileRowFirst .pMidle').addClass('animated bounceInDown');
+            $('#first .profileRowFirst .pSmall').addClass('animated bounceInDown');
+            $('#first .profileRowSecond .pMidle').addClass('animated bounceInDown');
+            $('#first .profileRowSecond .pSmall').addClass('animated bounceInDown');
+            $('#first .profileRowThird .pMidle').addClass('animated bounceInDown');
+            $('#first .profileRowThird .pSmall').addClass('animated bounceInDown');
+            $('#first .profileRowFourth .pMidle').addClass('animated bounceInDown');
+            $('#first .profileRowFourth .pSmall').addClass('animated bounceInDown');
+            $('#first .ion-social-twitter').addClass('animated bounceInDown');
+            $('#first .ion-social-instagram').addClass('animated bounceInDown');
+            $('#first .ion-social-facebook').addClass('animated bounceInDown');
+            $('#first .ion-social-youtube').addClass('animated bounceInDown');
+            $('#first .profileRowLast p').addClass('animated bounceInDown');
+            $('#first .profileRowLast i').addClass('animated bounceInDown');
+            $('#first img').addClass('animated slideInRight');
+        }
+    }, {
+      offset: 500
+    }); 
+
 
 	/* SLIDER */
 
