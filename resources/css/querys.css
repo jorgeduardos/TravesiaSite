@@ -190,11 +190,35 @@
     }
 
     .bkgBlack img{
-    	height: 400px;
+    	height: 550px;
     	margin-bottom: 10px;
     	margin-top: 15px;
     }
 
+    .sebasPicDiv img{
+        content:url("images/sebastian2.jpg");
+    }
+
+    .rufasPicDiv img{
+        content:url("images/rufasFoto2.png");
+    }
+
+    .nicolePicDiv img{
+        content:url("images/amador2.jpg");
+    }
+
+    .oscarPicDiv img{
+        content:url("images/oscarluna2.jpg");
+    }
+
+    .jackPicDiv img{
+        content:url("images/jackvargas2.jpg");
+    }
+
+    .juanPicDiv img{
+        content:url("images/juancamilo2.jpg");
+    }
+    
     .navBar{
         display: none;
     }
