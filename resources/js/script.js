@@ -30,8 +30,8 @@ $(document).ready(function(){
 
 	new Vivus('headerLogo', {duration: 150});
 
-	$('.title').css('animationDelay', '2.5s');
-	$('.titleContainer h3').css('animationDelay', '2.5s');
+	$('.title').css('animationDelay', '3s');
+	$('.titleContainer h3').css('animationDelay', '3s');
 
 
 	//NAV BAR ANIMATIONS
@@ -74,6 +74,16 @@ $(document).ready(function(){
     }, {
       offset: 500
     }); 
+
+    $('.reachContainer').waypoint(function(direction) {
+        if (direction == "down") {
+            $('.smrNumber').addClass('animated zoomIn');
+        }
+    }, {
+      offset: 300
+    }); 
+
+
 
       $('.js-who').waypoint(function(direction) {
         if (direction == "down") {
