@@ -26,7 +26,12 @@ $(document).ready(function(){
 		}
 	});
 
-	new Vivus('headerLogo', {duration: 160});
+	$('#headerLogo').css('strokeOpacity', '0.5');
+
+	new Vivus('headerLogo', {duration: 150});
+
+	$('.title').css('animationDelay', '2.5s');
+	$('.titleContainer h3').css('animationDelay', '2.5s');
 
 
 	//NAV BAR ANIMATIONS
